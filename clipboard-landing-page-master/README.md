@@ -10,8 +10,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-
 
 ### The challenge
 
@@ -27,7 +25,7 @@ Screenshhots of my solution can be found [here](./Screenshots/)
 
 ### Links
 
-- [Solution URL]: (https://github.com/Demonohu/Clipboard-landing-page)
+- Solution URL: [https://github.com/Demonohu/Clipboard-landing-page](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
@@ -46,8 +44,4 @@ I learnt much more about flexboxes and I learnt about the picture tag.
 
 - [W3schools](https://www.w3schools.com) 
 
-## Author
-
-- Website - Toma Ayo-Akwe
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
