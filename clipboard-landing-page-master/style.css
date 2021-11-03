@@ -1,0 +1,525 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+
+.bgImage{
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+
+.top{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.C_Logo{
+    text-align: center;
+    margin-top: -15%;
+}
+
+.top h1{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2.7rem;
+    margin-bottom: 1.3rem;
+}
+
+.p1{
+    width: 50%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.7rem;
+    font-size: 20px;
+}
+
+.buttons nav{
+    text-align: center;
+}
+
+.iOS{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.iOS:hover{
+    background-color: #5DCCBB;
+}
+
+.mac:hover{
+    background-color: #8896FF;
+}
+
+.buttons a{
+    color: white;
+    display: block;
+    padding: 14px 30px;
+    font-weight: 600;
+}
+
+.buttons ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.buttons li{
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.track{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.track h1, .devices h1{
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.track div{
+    width: 52%;
+    margin: 0 auto;
+}
+
+.computer{
+    display: flex;
+    margin: 5rem 0;
+}
+
+.computer img{
+    width: 100%;
+}
+
+aside{
+    padding-top: 3rem;
+}
+
+.search, .sync, .history{
+    text-align: start;
+    width: 60%;
+    margin:  2rem auto;
+}
+
+.search h1, .sync h1, .history h1{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.devices{
+    text-align: center;
+}
+
+.access{
+    width: 50%;
+    margin: 1rem auto 6rem auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: hsl(210, 10%, 33%);
+}
+
+.charge{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+.wtexts{
+    display: flex;
+    margin: 3rem 5%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pic{
+    height: 40px;
+}
+
+.blacklists, .snippets, .preview{
+    flex-basis: 32%;
+    height: 200px;
+}
+
+.blacklists h1, .snippets h1, .preview h1{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.blacklists div, .snippets div, .preview div{
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wotexts{
+    margin: 7rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appleH{
+    text-align: center;
+}
+
+.apple{
+    width: 50%;
+    margin: auto auto 2rem auto;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    padding: 1rem 5%;
+    background-color: #F5F6F8;
+}
+
+.bottom a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.C img{
+    width: 50%;
+}
+
+.bottom .links{
+    display: flex;
+}
+
+.links li{
+    margin: 0.5rem auto;
+}
+
+.SM li{ 
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+    background: hsl(171, 66%, 44%);
+    margin: 0;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+/*MOBILE DESIGN*/
+
+@media all and (max-width : 400px){
+
+    .C_Logo{
+        margin-top: -60%;
+    }
+
+    .top h1{
+        font-size: 2rem;
+    }
+
+    .top .p1{
+        font-size: 16px;
+        width: 89%;
+    }
+
+    .buttons li{
+        width: 89%;
+    }
+
+    .track{
+        margin-top: 9rem;
+    }
+    
+    .track h1, .devices h1{
+        font-size: 27px;
+        margin-bottom: 1rem;
+    }
+    
+    .track div{
+        font-size: 16px;
+        width: 89%;
+    }
+
+    .computer{
+        flex-direction: column;
+    }
+
+    .comp{
+        width: 89%;
+        margin: auto;
+    }
+
+    .search, .sync, .history{
+        text-align: center;
+        width: 89%;
+        font-size: 16px; 
+        margin:  2rem auto 6rem auto;
+    }
+    
+    .search h1, .sync h1, .history h1{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .access{
+        width: 89%;
+        margin: 1rem auto 6rem auto;
+        font-size: 16px;
+    }
+
+    .devices img{
+        width: 89%;
+    }
+
+    .charge h1{
+        font-size: 1.8rem;
+    }
+
+    .chargeP{
+        font-size: 16px;
+        width: 89%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .wtexts{
+        flex-direction: column;
+        margin-top: 7rem;
+    }
+
+    .blacklists, .snippets, .preview{
+        margin-bottom: 4rem;
+    }
+    .pic{
+        height: auto;
+        margin-top: 0rem;
+    }
+    
+    .blacklists h1, .snippets h1, .preview h1{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .blacklists div, .snippets div, .preview div{
+        font-size: 16px;
+    }
+
+    .wotexts{
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 6rem;
+    }
+
+    .wotexts div{
+        margin: 2rem auto;
+    }
+
+    .appleH{
+        margin-top: 0rem;
+        font-size: 1.8rem;
+    }
+    
+    .apple{
+        width: 88%;
+        font-size: 16px;
+        margin: auto auto 2rem auto;
+        text-align: center;
+    }
+
+    .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+        text-align: center;
+    }
+
+    .C{
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .links{
+        flex-direction: column;
+    }
+
+    .one ul, .two ul, .three ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .links li{
+        margin: 0.5rem auto 0 auto;
+    }
+
+    .SM{ 
+        margin: 1.5rem auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .SM ul{
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .SM li{
+        margin: 0 1rem;
+    }
+
+    .attribution{
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media all and (max-width : 800px){
+
+    .devices img{
+        width: 90%;
+    }
+
+    /*
+    
+    */
+    .top h1{
+        font-size: 2.2rem;
+    }
+
+    .p1{
+        width: 90%;
+        font-size: 16px;
+        margin-left: 5%;
+    }
+
+    .track h1{
+        font-size: 2rem;
+    }
+
+    .track div{
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .computer{
+        flex-direction: column;
+    }
+
+    .comp{
+        width: 90%;
+        margin-left: 5%;
+
+    }
+
+    .pic{
+        height: fit-content;
+    }
+
+    .blacklists, .snippets, .preview{
+        height: max-content;
+        margin:  1rem auto;
+    }
+
+    .blacklists h1, .snippets h1, .preview h1{
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .devices .access{
+        width: 90%;
+        font-size: 16px;
+        margin-right: 5%;
+    }
+
+    .wtexts{
+        flex-direction: column;
+        font-size: 16px;
+        height: max-content;
+    }
+
+    .wotexts{
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+
+    .wotexts div{
+        margin: 2rem auto;
+    }
+
+    .appleH{
+        font-size: 2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .apple{
+        width: 90%;
+    }
+    .bottom .links{
+        flex-direction: column;
+    }
+    
+    .one ul, .two ul, .three ul{
+        margin: 0 auto 0 0;
+        padding: 0;
+    }
+
+    .links li{
+        margin: 0.5rem auto 0 0;
+        width: max-content;
+
+    }
+
+    .SM ul{
+        padding: 0;
+    }
+
+    .SM li{ 
+        display: inline-block;
+        margin-left: 0.3rem;
+    }
+
+}
