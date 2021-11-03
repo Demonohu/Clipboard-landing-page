@@ -27,7 +27,7 @@ Screenshhots of my solution can be found [here](./Screenshots/)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL]: (https://github.com/Demonohu/Clipboard-landing-page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
